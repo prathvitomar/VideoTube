@@ -1,0 +1,29 @@
+{
+  "name": "videotube",
+  "version": "1.0.0",
+  "description": "VideoTube is a MERN Web App where Production Grade Node and MongoDB Practices are followed.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [
+    "node.js",
+    "backend",
+    "mongodb",
+    "mern",
+    "stack"
+  ],
+  "author": "Prathvi Singh Tomar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.4.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3"
+  }
+}
